@@ -1,0 +1,17 @@
+
+
+.imgHolder {
+	margin: 40px auto;
+	opacity: 0;
+}
+
+.imgHolder img {
+	width: 60%;
+}
+
+.nowVisible {
+	-webkit-transition: opacity 0.5s ease;
+	-moz-transition: opacity 0.5s ease;
+	-o-transition: opacity 0.5s ease;
+	opacity: 1;
+}
